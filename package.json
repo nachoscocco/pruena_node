@@ -1,0 +1,26 @@
+{
+  "name": "servidor",
+  "version": "1.0.0",
+  "description": "prueba de node",
+  "main": "index.js",
+  "dependencies": {
+    "colors": "^1.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nachoscocco/pruena_node.git"
+  },
+  "keywords": [
+    "pruebanode"
+  ],
+  "author": "iscocco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nachoscocco/pruena_node/issues"
+  },
+  "homepage": "https://github.com/nachoscocco/pruena_node#readme"
+}
