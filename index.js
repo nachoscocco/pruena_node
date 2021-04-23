@@ -1,4 +1,4 @@
-const http   = require('http');
+/* const http   = require('http');
 const colors = require('colors');
 
 const handleServer = function (req, res){                               // request y response
@@ -14,4 +14,14 @@ server.listen(4200 , function(){                                         //sirvo
     console.log('Servidor ejecutandose en  p:4200'.rainbow);
 });
 
+ */
 
+const colors = require('colors')
+const express = require('express')
+const server = express()
+const port = 3000
+
+server.listen(port, ()=>{
+
+ console.log('Server on port 3000'.green);
+});
